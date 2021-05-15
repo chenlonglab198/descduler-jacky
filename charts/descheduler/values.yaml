@@ -19,7 +19,7 @@ resources:
 nameOverride: ""
 fullnameOverride: ""
 
-schedule: "*/2 * * * *"
+schedule: "*/10 * * * *"
 #startingDeadlineSeconds: 200
 #successfulJobsHistoryLimit: 1
 #failedJobsHistoryLimit: 1
