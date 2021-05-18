@@ -10,7 +10,7 @@ image:
 
 resources:
   requests:
-    cpu: 500m
+    cpu: 50m
     memory: 256Mi
   # limits:
   #   cpu: 100m
@@ -19,7 +19,7 @@ resources:
 nameOverride: ""
 fullnameOverride: ""
 
-schedule: "*/15 * * * *"
+schedule: "*/2 * * * *"
 #startingDeadlineSeconds: 200
 #successfulJobsHistoryLimit: 1
 #failedJobsHistoryLimit: 1
